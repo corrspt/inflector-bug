@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'inflector-bug',
+    podModulePrefix: 'inflector-bug/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('gases');
+  this.route('gas', { path: '/gases/:id' });
 });
 
 export default Router;
